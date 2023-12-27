@@ -43,7 +43,7 @@ hr {
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 28px;
-  background: white;
+  background: #f0f0f5;
 }
 
 .itemsSearch {
@@ -208,6 +208,10 @@ hr {
 }
 .infoContainer ul li {
   font-size: 20px;
+}
+
+.titleIndexDoc {
+  background-color: white;
 }
 
 .imageProduct {
