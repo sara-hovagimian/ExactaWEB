@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--head-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,9 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
-<body>
+<body class="bodyDoc">
     <!--header-->
     <div class="container-fluid menuHeader">
-        <div>
             <div class="row">
                 <div class=" col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 logoEasy">
                     <img src="../assets/LogoEasySoft.png" alt="logo EasySoft">
@@ -41,7 +41,6 @@
                     </nav>
                 </div>
             </div>
-        </div>
     </div>
 
 
@@ -49,33 +48,27 @@
     <!-- title index-->
     <div class="container-fluid titleIndexDoc">
         <div class="row">
+            <div class=" col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                <!--migas de pan-->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                        <li class="breadcrumb-item"><a href="./plan_de_cuentas_y_tablas_relacionadas.html">Plan de
+                                cuentas y tablas relacionadas</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Cuentas</li>
+                    </ol>
+                </nav>
+                <!--fin migas de pan-->
+            </div>
+            <div class=" col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                <!--busqueda-->
+                <form class="d-flex itemsSearch" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                    <button class="btn btn-outline-success btnColor" type="submit"><i class='bx bx-search'></i></button>
+                </form>
+            </div>
 
-            <div class=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
-               
-                <section class="row">
-                    <div class="col-5">
-                        <!--migas de pan-->
-                          
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                  <li class="breadcrumb-item"><a href="./plan_de_cuentas_y_tablas_relacionadas.html">Plan de cuentas y tablas relacionadas</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Cuentas</li>
-                </ol>
-              </nav>
-<!--fin migas de pan-->
-                    </div>
-                    <div class="col-7">
-                        <!--busqueda-->
-                        <form class="d-flex itemsSearch" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
-                            <button class="btn btn-outline-success btnColor" type="submit"><i
-                                    class='bx bx-search'></i></button>
-                        </form>
-                    </div>
-                </section>
-                <hr> <!--linea divisoria-->
-                            </div>
+            <hr class="headLineDoc"> <!--linea divisoria-->
         </div>
     </div>
     <!--finalContent-->
@@ -83,19 +76,24 @@
         <div class="row InfoRowContainer">
             <div class=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 infoContainer">
                 <h1>Alta manual de cuentas</h1>
-    <p>En esta ventana se definen las cuentas del plan de cuentas de tu empresa.</p>
-    <p>Al ingresar verás las cuentas que ya están definidas.</p>
-    <img src="../assets/account01.jpg" alt="lista de cuentas" class="imageProduct">
-    <p>En este video te contamos en forma general como incorporar un nuevo elemento y modificar o eliminar alguno de los ya existentes. </p> 
-    <video class="videoProduct" controls>
-        <source src="../assets/accountsv01.mp4" type="video/mp4">
-        <p>Tu navegador no puede reproducir este video</p>
-    </video>
-    <p>Cada cuenta se define con un código a tu elección que te servirá para identificarla en el resto de las pantallas del sistema. </p>
-    <p>También tenés que indicar el saldo habitual de la cuenta. Este permitirá al sistema informarte cuando el saldo de la misma varíe respecto al esperado. </p>
-        
-
-    <img src="../assets/account02.jpg" alt="alta de cuentas"class="imageProduct">
+                <p>En esta ventana se definen las cuentas del plan de cuentas de tu empresa.</p>
+                <p>Al ingresar verás las cuentas que ya están definidas.</p>
+                <img src="../assets/account01.jpg" alt="lista de cuentas" class="imageProduct">
+                <h2>Como dar de alta y modificar cuentas</h2>
+                <p>En este video te contamos en forma general como incorporar un nuevo elemento y modificar o
+                    eliminar
+                    alguno de los ya existentes. </p>
+                <video class="videoProduct" controls>
+                    <source src="../assets/accountsv01.mp4" type="video/mp4">
+                    <p>Tu navegador no puede reproducir este video</p>
+                </video>
+                <p>Cada cuenta se define con un código a tu elección que te servirá para identificarla en el resto
+                    de
+                    las pantallas del sistema. </p>
+                <p>También tenés que indicar el saldo habitual de la cuenta. Este permitirá al sistema informarte
+                    cuando
+                    el saldo de la misma varíe respecto al esperado. </p>
+              
 
             </div>
         </div>
@@ -106,13 +104,14 @@
         <div class="row">
             <div class=" col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="footer">
-                    <p> ExactaWeb.Client v:1.0.0.0 - Powered by</p> 
+                    <p> ExactaWeb.Client v:1.0.0.0 - Powered by</p>
                     <img src="../assets/favicon.ico">
                     <a href="http://Linkedin.com" target="_blank"><img src="../assets/Linkedin.jpg" alt="linkedin"></a>
                     <a href="http://youtube.com" target="_blank"><img src="../assets/Youtube.jpg" alt="youtube"></a>
                     <a href="http://instagram.com" target="_blank"><img src="../assets/bi_instagram.jpg"
                             alt="instagram"></a>
-                            <a href="http://facebook.com" target="_blank"><img src="../assets/bi_facebook.jpg" alt="facebook"></a>
+                    <a href="http://facebook.com" target="_blank"><img src="../assets/bi_facebook.jpg"
+                            alt="facebook"></a>
                 </div>
             </div>
         </div>

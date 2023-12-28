@@ -2,11 +2,15 @@
     margin: 5px 5px 10px 13px;
    
 }*/
-
+.bodyDoc{
+    background-color: white;
+}
 .infoContainer {
     /*border-radius: 8px;*/
     background:white;
     font-weight: 400;
+    width: 95%;
+    margin-left:35px;
     /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);*/
     p{
        padding-left: 20px;
@@ -16,26 +20,48 @@
     }
     h1{
         padding-left: 20px;
+        margin-top:5px;
         font-size: 30px;
+        color:#6574cd;
     }
     ul {
         li{font-size: 20px;}
     }
+    h2{
+        padding-left: 20px;
+        margin-top:30px;
+        font-size: 25px;
+        color:#6574cd; 
+    }
 }
 .titleIndexDoc{
     background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 80px;
 }
 .imageProduct{
-    width: 100%;
+    width: 80%;
     /*padding: 20px 100px 20px 100px;*/
     border: 1px solid gray;
-   
- 
+margin-left: 20px;
+margin-top:20px;
+margin-bottom:20px;
+}
+.headLineDoc {
+        border: 0;
+        height: 3px;
+        background-color: black;
+        padding-left:80px ;
+        width: 95%;
+        margin-top: 18px;
 }
 .videoProduct{
     width: 75%;
-    padding: 20px 80px 20px 220px;
-    
+   /* padding: 20px 80px 20px 220px;*/
+   margin-left: 20px;
+   margin-top:20px;
+   margin-bottom:20px;
   
    
 }

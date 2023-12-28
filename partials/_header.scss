@@ -4,21 +4,23 @@
 }
 
 .logoEasy {
-    padding: 28px;
+    padding: 28px 0px 28px 80px;
 
 }
 
 .navMenu {
-    padding: 20px;
+    padding: 28px 0px 28px 0px;
+    
 }
 
 .navHeader {
     font-weight: bold;
     font-size: 1.1rem;
+    float: right;
 
     a {
         &:hover {
-            box-shadow: 0px 4px 4px 0px #FBB034;
+            box-shadow: 0px 4px 4px 0px #6574cd;
         }
     }
 }

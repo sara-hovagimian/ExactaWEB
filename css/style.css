@@ -33,30 +33,32 @@ h3 {
 
 /*fin fonts*/
 /*titleIndex*/
-hr {
-  border: 0;
-  height: 3px;
-  background-color: black;
-}
-
 .titleIndex {
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 28px;
+  padding-left: 80px;
   background: #f0f0f5;
 }
 
 .itemsSearch {
   width: 70%;
-  margin-right: 10px;
+  margin-right: 80px;
   float: right;
+}
+
+.headLine {
+  border: 0;
+  height: 3px;
+  background-color: black;
+  padding-left: 80px;
+  width: 95%;
 }
 
 .btnColor {
   border-color: 0.5px black;
 }
 .btnColor:hover {
-  background: #FBB034;
+  background: #6574cd;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -74,6 +76,12 @@ hr {
   /* Color del texto del enlace */
 }
 
+.colorBg {
+  margin-left: 70px;
+  margin-right: 300px;
+  width: 90%;
+}
+
 .noDecoration a {
   text-decoration: none;
 }
@@ -87,12 +95,12 @@ hr {
   transition: all 0.4s;
 }
 .cardsForm:hover {
-  box-shadow: 0px 4px 4px 0px #FBB034;
+  box-shadow: 0px 4px 4px 0px #6574cd;
   height: 87%;
 }
 
 .cardsFormInfo {
-  background-color: #fdd89c;
+  background-color: #afb5d3;
 }
 
 .cardContent h3 {
@@ -110,19 +118,20 @@ hr {
 }
 
 .logoEasy {
-  padding: 28px;
+  padding: 28px 0px 28px 80px;
 }
 
 .navMenu {
-  padding: 20px;
+  padding: 28px 0px 28px 0px;
 }
 
 .navHeader {
   font-weight: bold;
   font-size: 1.1rem;
+  float: right;
 }
 .navHeader a:hover {
-  box-shadow: 0px 4px 4px 0px #FBB034;
+  box-shadow: 0px 4px 4px 0px #6574cd;
 }
 
 /*fin header*/
@@ -155,7 +164,7 @@ hr {
 }
 
 .cardsFormInfo {
-  background: #fdd89c;
+  background: #bbbece;
 }
 
 .cardContentSL {
@@ -174,15 +183,21 @@ hr {
   width: 130px;
   height: 35px;
   border-radius: 10px;
-  background: #FBB034;
+  background-color: #6574cd;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   position: absolute;
   bottom: 30px;
   right: 30px;
 }
+.btnShowMore:hover {
+  box-shadow: 0px 4px 4px 0px #6574cd;
+  background-color: #6574cd;
+}
 
 .contentRow {
-  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-right: 100px;
+  justify-content: space-between;
 }
 
 /*fin cardSecondLevel*/
@@ -190,10 +205,16 @@ hr {
     margin: 5px 5px 10px 13px;
 
 }*/
+.bodyDoc {
+  background-color: white;
+}
+
 .infoContainer {
   /*border-radius: 8px;*/
   background: white;
   font-weight: 400;
+  width: 95%;
+  margin-left: 35px;
   /*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);*/
 }
 .infoContainer p {
@@ -204,25 +225,51 @@ hr {
 }
 .infoContainer h1 {
   padding-left: 20px;
+  margin-top: 5px;
   font-size: 30px;
+  color: #6574cd;
 }
 .infoContainer ul li {
   font-size: 20px;
 }
+.infoContainer h2 {
+  padding-left: 20px;
+  margin-top: 30px;
+  font-size: 25px;
+  color: #6574cd;
+}
 
 .titleIndexDoc {
   background-color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 80px;
 }
 
 .imageProduct {
-  width: 100%;
+  width: 80%;
   /*padding: 20px 100px 20px 100px;*/
   border: 1px solid gray;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.headLineDoc {
+  border: 0;
+  height: 3px;
+  background-color: black;
+  padding-left: 80px;
+  width: 95%;
+  margin-top: 18px;
 }
 
 .videoProduct {
   width: 75%;
-  padding: 20px 80px 20px 220px;
+  /* padding: 20px 80px 20px 220px;*/
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
