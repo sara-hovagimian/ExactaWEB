@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*reset*/
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap");
 * {
@@ -134,6 +135,14 @@ h3 {
   box-shadow: 0px 4px 4px 0px #6574cd;
 }
 
+@media (max-width: 576px) {
+  .order-lg-2 {
+    order: 1; /* Cambia el orden para que aparezca primero en resoluciones menores */
+  }
+  .navRight {
+    margin-left: auto; /* Mueve el botón de la hamburguesa a la derecha */
+  }
+}
 /*fin header*/
 /*footer*/
 .footer {
@@ -150,16 +159,25 @@ h3 {
   padding: 15px 20px 50px 20px;
 }
 
+@media (max-width: 992px) {
+  .footer p {
+    text-align: center;
+  }
+  .iconCenter {
+    justify-content: center;
+  }
+}
 /*fin footer*/
 /*cardSecondLevel*/
 .cardSecondLevel {
-  width: 366px;
-  height: 265px;
+  width: 100%;
+  height: 350px;
   margin-bottom: 30px;
   border-radius: 20px;
   background: #fffffC;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 18px;
+  overflow: auto;
 }
 
 .cardsFormInfo {
@@ -179,7 +197,7 @@ h3 {
 }
 
 .btnShowMore {
-  width: 130px;
+  /*width: 130px;*/
   height: 35px;
   border-radius: 10px;
   background-color: #6574cd;
@@ -195,10 +213,28 @@ h3 {
 
 .contentRow {
   margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 70px;
   justify-content: space-evenly;
 }
 
+@media (max-width: 500px) {
+  .cardSecondLevel {
+    width: 120%;
+    height: 350px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    overflow: auto;
+  }
+}
+@media (max-width: 340px) {
+  .cardSecondLevel {
+    width: 140%;
+    height: 350px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    overflow: auto;
+  }
+}
 /*fin cardSecondLevel*/
 /*.InfoRowContainer{
     margin: 5px 5px 10px 13px;
@@ -247,7 +283,7 @@ h3 {
 }
 
 .imageProduct {
-  width: 90%;
+  width: 80%;
   border: 1px solid gray;
   margin-left: 30px;
   margin-top: 20px;

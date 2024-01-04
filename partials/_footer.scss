@@ -1,19 +1,33 @@
 /*footer*/
 .footer {
-    background-color: white;
-    height: 60px;
-   
-      width: 100%;
+  background-color: white;
+  height: 60px;
 
-    p {
-       text-align: right;
-       padding: 20px;
-    }
+  width: 100%;
+
+  p {
+    text-align: right;
+    padding: 20px;
+  }
 }
-.footerIcon
-{
-    padding: 15px 20px 50px 20px;
-   
+
+.footerIcon {
+  padding: 15px 20px 50px 20px;
+
 }
+
+@media (max-width: 992px) {
+  .footer p {
+    text-align: center;
+  }
+
+  .iconCenter {
+
+    justify-content: center;
+
+  }
+}
+
+
 
 /*fin footer*/
