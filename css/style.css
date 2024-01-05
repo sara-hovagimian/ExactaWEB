@@ -135,20 +135,20 @@ h3 {
   box-shadow: 0px 4px 4px 0px #6574cd;
 }
 
-@media (max-width: 999px) {
-  .order-lg-2 {
-    order: 1; /* Cambia el orden para que aparezca primero en resoluciones menores */
-  }
-  .navRight {
-    margin-left: auto; /* Mueve el botón de la hamburguesa a la derecha */
-  }
-}
 @media (max-width: 576px) {
   .order-lg-2 {
     order: 1; /* Cambia el orden para que aparezca primero en resoluciones menores */
   }
   .navRight {
     margin-left: auto; /* Mueve el botón de la hamburguesa a la derecha */
+  }
+  .navbar-brand {
+    order: 2; /* Cambia el orden del logo */
+  }
+  .navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    order: 3; /* Cambia el orden del contenedor de la barra de navegación colapsada */
   }
 }
 /*fin header*/
@@ -185,7 +185,6 @@ h3 {
   background: #fffffC;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: 18px;
-  overflow: auto;
 }
 
 .cardsFormInfo {
@@ -231,7 +230,6 @@ h3 {
     height: 350px;
     margin-bottom: 30px;
     font-size: 18px;
-    overflow: auto;
   }
 }
 @media (max-width: 340px) {

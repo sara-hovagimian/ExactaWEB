@@ -5,32 +5,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exacta Web - Asientos</title>
+    <title>Exacta Web - Mayores</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.ico">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
-<body>
+
+<body class="bodyDoc">
+    <!--header-->
     <div class="container-fluid menuHeader">
+
         <div class="row">
-            <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12">
-                <section class="infoContainer">
-                    <p>Hola 1 </p>
-                </section>
+            <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 logoEasy">
+                <a href="../index.html">
+                    <img src="../assets/LogoEasySoft.png" alt="logo EasySoft"></a>
             </div>
             <!--navbar-->
-            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12  ">
-                <aside class="infoAside">
-                <p>Hola 2</p>
-            </aside>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 ">
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid navMenu">
+                        <button class="navbar-toggler navRight" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse order-lg-2" id="navbarNavAltMarkup">
+                            <div class="navbar-nav navHeader">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link" href="../html/faq.html">FAQ</a>
+                                <a class="nav-link" href="https://sac.bas.com.ar/" target=_blank>SAC</a>
+                                <a class="nav-link" href="https://bas.com.ar/" target=_blank>BAS</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </div>
 
 
 
+    <!--main-->
+    <!-- title index-->
+    <div class="container-fluid titleIndexDoc">
+        <div class="row">
+
+            <div class=" col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                <!--migas de pan-->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+                        <li class="breadcrumb-item"><a href="./informes_generales.html">Informes generales</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Mayores</li>
+                    </ol>
+                </nav>
+                <!--fin migas de pan-->
+            </div>
+            <div class=" col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                <!--busqueda-->
+                <form class="d-flex itemsSearch" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                    <button class="btn btn-outline-success btnColor" type="submit"><i class='bx bx-search'></i></button>
+                </form>
+            </div>
+            </section>
+            <hr class="headLineDoc"> <!--linea divisoria-->
+        </div>
+    </div>
+
+    <!--finalTitleIndex-->
+    <main>
+        <div class="container-fluid">
+            <div class="row InfoRowContainer">
+                <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12">
+                    <section class="infoContainer">
+                        <h1>Mayores</h1>
+                        <p>En esta ventana podés emitir los mayores de las cuentas del plan de cuentas.
+                            Es posible emitir el mayor de una cuenta en particular o, mediante una vista, emitir los mayores de un conjunto de cuentas. Para ello deberás definir previamente una vista con las cuentas a incluir en el informe
+                         .</p>
+                         <p>En este <a href="#" target="_blank">video</a> te contamos en forma
+                            general como definir una vista.
+                        </p>
+                        <p>Para realizar la emisión completá los datos de la siguiente pantalla:</p>
+                            <img src="../assets/ledgers01.jpg" alt="emisión de mayores" class="imageProduct">
+                            
+                            <p>Ingresá el título del informe. Seleccioná si querés emitir el mayor de una cuenta o indicar una vista que liste una serie de cuentas. Por último inforá el rango de fechas para la emisión</p>
+                        
+                        <h2>Ejemplo de informe</h2>
+                        <p>Acá emitimos un ejemplo de mayor de un conjunto de cuentas asociadas a una vista. </p>
+
+
+                        <img src="../assets/ledgers02.jpg" alt="emisión de mayores" class="imageProduct">
+                    </section>
+                </div>
+                <div class=" col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 ">
+                    <!--aside-->
+                    <aside class="infoAside">
+                        <h3>Temas que pueden interesarte</h3>
+                        <ul>
+                            <li><a href="./accounts.html" target="_blank">
+                                    <i class='bx bx-check'></i>
+                                    Cuentas</a></li>
+                            <li><a href="./views.html" target="_blank">
+                                    <i class='bx bx-check'></i>
+                                    Vistas</a></li>
+                        </ul>
+
+                    </aside>
+                    <!--fin aside-->
+
+                </div>
+            </div>
+        </div>
+</main>
+        <!--footer-->
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+
+                    <p> ExactaWeb.Client v:1.0.0.0 - Powered by
+                        <img src="../assets/favicon.ico">
+                    </p>
+                </div>
+                <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <section class="iconCenter d-flex ">
+                    <a href="http://Linkedin.com" target="_blank"><img src="../assets/Linkedin.jpg" alt="linkedin"
+                            class="footerIcon"></a>
+                    <a href="http://youtube.com" target="_blank"><img src="../assets/Youtube.jpg" alt="youtube"
+                            class="footerIcon"></a>
+                    <a href="http://instagram.com" target="_blank"><img src="../assets/bi_instagram.jpg" alt="instagram"
+                            class="footerIcon"></a>
+                    <a href="http://facebook.com" target="_blank"><img src="../assets/bi_facebook.jpg" alt="facebook"
+                            class="footerIcon"></a>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="../js/popper.js"></script>
+        <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>
