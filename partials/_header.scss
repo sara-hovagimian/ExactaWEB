@@ -27,15 +27,18 @@
 }
 
 @media (max-width:576px)  {
-    .order-lg-2 {
-        order: 1; /* Cambia el orden para que aparezca primero en resoluciones menores */
+   .order-lg-2 {
+        order: 1; /* Cambia el orden para que aparezca primero en resoluciones menores*/ 
     }
     .navRight {
-        margin-left: auto; /* Mueve el botón de la hamburguesa a la derecha */
-    }
- 
+     
+       margin-left: auto; /* Mueve el botón de la hamburguesa a la derecha */
+   }
+    .logoEasy {
+        padding: 28px 0px 28px 40px;
+       
+    
+  }
     }    
-    
-
-    
+  
 /*fin header*/
