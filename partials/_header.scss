@@ -1,44 +1,22 @@
 /*header*/
 .menuHeader {
     background-color: white;
+    height: 90px;
 }
 
 .logoEasy {
     padding: 28px 0px 28px 80px;
-   
 
 }
 
-.navMenu {
-    padding: 28px 0px 28px 0px;
-    
+.buttColor {
+    margin-right: 90px;
 }
 
-.navHeader {
-    font-weight: bold;
-    font-size: 1.1rem;
-    float: right;
-
-    a {
-        &:hover {
-            box-shadow: 0px 4px 4px 0px #6574cd;
-        }
-    }
-}
-
-@media (max-width:576px)  {
-   .order-lg-2 {
-        order: 1; /* Cambia el orden para que aparezca primero en resoluciones menores*/ 
-    }
-    .navRight {
-     
-       margin-left: auto; /* Mueve el botón de la hamburguesa a la derecha */
-   }
+@media (max-width:576px) {
     .logoEasy {
         padding: 28px 0px 28px 40px;
-       
-    
-  }
-    }    
-  
+    }
+}
+
 /*fin header*/
