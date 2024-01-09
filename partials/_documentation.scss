@@ -116,3 +116,21 @@
         }
     }
 }
+
+@media (max-width:992px){
+.InfoRowContainer{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media (max-width:768px){
+    .InfoRowContainer{
+        margin-left: 1px;
+        margin-right: 5px;
+    }
+    .headLineDoc {
+      margin-left: 1px;
+    
+       
+    }
+    }
