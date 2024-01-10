@@ -84,11 +84,6 @@
     }
 }
 
-
-
-
-
-
 @media (max-width: 370px) {
     .cardSecondLevel {
         width: 120%;
@@ -102,3 +97,15 @@
         margin-left: 5px;
     }
 }
+
+@media (max-width: 305px) {
+    .cardContentSL {
+        p{
+font-size: 0.9rem;
+        }
+        h3{
+font-size: 1.1rem;
+        }
+    }
+
+    }

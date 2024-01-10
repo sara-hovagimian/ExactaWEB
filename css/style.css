@@ -372,5 +372,13 @@ h3 {
     margin-left: 5px;
   }
 }
+@media (max-width: 305px) {
+  .cardContentSL p {
+    font-size: 0.9rem;
+  }
+  .cardContentSL h3 {
+    font-size: 1.1rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
