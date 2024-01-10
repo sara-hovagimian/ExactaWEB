@@ -298,7 +298,11 @@ h3 {
   .colorBg {
     margin-left: 30px;
   }
-  .InfoRowContainer {
+  .infoRowContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .infoContainer {
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -317,7 +321,13 @@ h3 {
   .titleIndex {
     padding-left: 40px;
   }
-  headLine {
+  .titleIndexDoc {
+    padding-left: 40px;
+  }
+  .headLine {
+    padding-left: 40px;
+  }
+  .headLineDoc {
     padding-left: 40px;
   }
 }

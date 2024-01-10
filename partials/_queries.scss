@@ -3,7 +3,11 @@
         margin-left: 30px;
     }
 
-    .InfoRowContainer {
+    .infoRowContainer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .infoContainer{
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -29,10 +33,16 @@
     .titleIndex {
         padding-left: 40px;
     }
+    .titleIndexDoc {
+        padding-left: 40px;
+    }
 
-    headLine {
+    .headLine {
         padding-left: 40px;
 
+    }
+    .headLineDoc{
+        padding-left: 40px;
     }
 }
 
