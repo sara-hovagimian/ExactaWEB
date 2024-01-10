@@ -353,6 +353,9 @@ h3 {
     margin-bottom: 30px;
     font-size: 18px;
   }
+  .colorBg {
+    margin-left: 15px;
+  }
   .contentRow {
     margin-left: 15px;
   }

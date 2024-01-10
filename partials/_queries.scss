@@ -46,9 +46,6 @@
     }
 }
 
-
-
-
 @media (max-width:768px) {
     .InfoRowContainer {
         margin-left: 1px;
@@ -57,7 +54,6 @@
 
     .headLineDoc {
         margin-left: 1px;
-
 
     }
 }
@@ -78,6 +74,9 @@
         height: 350px;
         margin-bottom: 30px;
         font-size: 18px;
+    }
+    .colorBg {
+        margin-left: 15px;
     }
 
     .contentRow {
