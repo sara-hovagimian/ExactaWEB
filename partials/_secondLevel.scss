@@ -55,43 +55,5 @@
   justify-content:space-evenly ;
 }
 
-@media (max-width: 992px) {
-  .contentRow{
-    margin-left: 40px;
-  }
-}
-
-@media (max-width: 500px) {
-  .cardSecondLevel {
-    width: 120%;
-     height: 350px;
-     margin-bottom: 30px;
-          font-size: 18px;
-   }
-   .contentRow{
-    margin-left:15px;
-  }
-}
-@media (max-width: 370px) {
-  .cardSecondLevel {
-    width: 120%;
-     height: 350px;
-     margin-bottom: 30px;
-          font-size: 16px;
-     overflow: auto;
-   }
-   .contentRow{
-    margin-left:5px;
-  }
-}
-
-@media (max-width:576px)  {
-  .cardContent {
-    h3 {
-      padding: 18px;
-      font-size: 1.2rem;
-    }
-  }
-   }
 
 /*fin cardSecondLevel*/
