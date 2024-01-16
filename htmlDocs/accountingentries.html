@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exacta Web - Alta, baja y modificación de elementos</title>
+    <title>Exacta Web - Asientos</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
@@ -16,27 +16,25 @@
     <!--header-->
     <div class="container-fluid menuHeader">
         <div class="row">
+            <!--Logoeasy-->
             <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-4 col-3 logoEasy">
                 <a href="../index.html">
                     <img src="../assets/LogoEasySoft.png" alt="logo EasySoft"></a>
             </div>
-            
         </div>
     </div>
-
-
     <!--main-->
     <!-- title index-->
     <div class="container-fluid titleIndexDoc">
         <div class="row">
             <div class=" col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                 <!--migas de pan-->
-
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-
-                        <li class="breadcrumb-item active" aria-current="page">Alta, baja y modificación de elementos
+                        <li class="breadcrumb-item"><a href="../htmlLayout/asientos.html">Asientos</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Carga de asientos en el diario
+                            general
                         </li>
                     </ol>
                 </nav>
@@ -55,48 +53,50 @@
     </div>
 
     <!--finalContent-->
-    <div class="container-fluid">
-        <div class="row infoRowContainer">
-            <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 ">
-                <section class="infoContainer">
-                    <h1>Alta, baja y modificación de elementos</h1>
-                    <p>En todo el sistema la manera de incorporar, modificar o eliminar elementos se realiza en forma análoga.</p>
-                    <p>Al ingresar a la pantalla en la que vas a trabajar verás los elementos ya ingresados y podrás modificarlos, eliminarlos y agregar nuevos.
+    <main>
+        <div class="container-fluid">
+            <div class="row infoRowContainer">
+                <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                    <section class="infoContainer">
+                        <h1>Carga de asientos en el Diario General</h1>
+                        <p>Al ingresar a la pantalla podés ver los asientos ya registrados.</p>
+                        <img src="../assets/accountingentries01.jpg" class="imageProduct" alt="asientos registrados">
+
+
+                        <p>
+                            Para registrar un asiento completá los datos que se solicitan teniendo en cuentas estas
+                            indicaciones:
                         </p>
-                    <img src="../assets/views01.jpg" alt="vistas" class="imageProduct">
-                    
-                  
-                    <p>En este video te mostramos en forma práctica como operar.
-                    </p>
+                        <img src="../assets/accountingentries02.jpg" class="imageLarge" alt="carga de asientos">
 
-                    <video class="videoProduct" controls>
-                        <source src="../assets/addDeleteModifyv01.mp4" type="video/mp4">
-                        <p>Tu navegador no puede reproducir este video</p>
-                    </video>
-                </section>
+                        <p>
+                            En este <a href="../assets/addDeleteModifyv01.mp4" target="_blank">video</a> te contamos en
+                            forma
+                            general como incorporar un nuevo elemento y modificar o eliminar alguno de los ya
+                            existentes.
+                        </p>
+                    </section>
+                </div>
+                <div class=" col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                    <!--aside-->
+                    <aside class="infoAside">
+                        <h3>Temas que pueden interesarte</h3>
+                        <ul>
+                            <li><a href="./accounts.html">
+                                    <i class='bx bx-check'></i>
+                                    Cuentas</a></li>
+                            <li><a href="./journalreport.html">
+                                    <i class='bx bx-check'></i>
+                                    Informe de diario</a></li>
+                        </ul>
+
+                    </aside>
+                    <!--fin aside-->
+
+                </div>
             </div>
+    </main>
 
-            <div class=" col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
-                <!--aside-->
-                <aside class="infoAside">
-                    <h3>Temas que pueden interesarte</h3>
-                    <ul>
-                        <li><a href="./accountingentries.html">
-                                <i class='bx bx-check'></i>
-                                Carga de asientos</a></li>
-                        <li><a href="./views.html">
-                                <i class='bx bx-check'></i>
-                                Vistas</a></li>
-                        <li><a href="./accounts.html">
-                                <i class='bx bx-check'></i>
-                                Cuentas</a></li>
-                    </ul>
-
-                </aside>
-                <!--fin aside-->
-            </div>
-        </div>
-    </div>
 
     <!--footer-->
     <div class="container-fluid footer">
@@ -105,6 +105,7 @@
 
                 <p> ExactaWeb.Client v:1.0.0.0 - Powered by
                     <a href="https://bas.com.ar/" target=_blank> <img src="../assets/favicon.ico" alt="BAS"></a>
+
                 </p>
             </div>
             <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -121,7 +122,6 @@
             </div>
         </div>
     </div>
-
     <script src="../js/popper.js"></script>
     <script src="../js/bootstrap.js"></script>
 </body>

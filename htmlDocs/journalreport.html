@@ -5,37 +5,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exacta Web - Preguntas frecuentes</title>
+    <title>Exacta Web - Diario</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
+
 <body class="bodyDoc">
     <!--header-->
     <div class="container-fluid menuHeader">
+
         <div class="row">
             <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-4 col-3 logoEasy">
                 <a href="../index.html">
                     <img src="../assets/LogoEasySoft.png" alt="logo EasySoft"></a>
             </div>
-           
+
         </div>
     </div>
 
 
 
+    <!--main-->
     <!-- title index-->
     <div class="container-fluid titleIndexDoc">
         <div class="row">
+
             <div class=" col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                 <!--migas de pan-->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                        
-                        <li class="breadcrumb-item active" aria-current="page">Preguntas frecuentes</li>
+                        <li class="breadcrumb-item"><a href="../htmlLayout/informes_generales.html">Informes
+                                generales</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Diario general</li>
                     </ol>
                 </nav>
                 <!--fin migas de pan-->
@@ -47,56 +53,55 @@
                     <button class="btn btn-outline-success btnColor" type="submit"><i class='bx bx-search'></i></button>
                 </form>
             </div>
-
+            </section>
             <hr class="headLineDoc"> <!--linea divisoria-->
         </div>
     </div>
+
     <!--finalTitleIndex-->
-    <!--main-->
     <main>
-        <!--Acordion-->
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item faqItem">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <h3 class="faqQuestion">Qué es una vista?</h3>
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body ">
-                   <p class="faqContent"> Las Vistas son modelos que permiten desplegar la información contable agrupada de diferentes
-                    maneras,
-                    según el tipo de informe a emitir.</p>
+        <div class="container-fluid">
+            <div class="row infoRowContainer">
+                <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                    <section class="infoContainer">
+                        <h1>Diario General</h1>
+                        <p>En esta ventana podés emitir el diario general. Para ello completá los datos de la siguiente
+                            pantalla.</p>
+                        <p>Ingresá el título del informe. Seleccioná el orden en el cual querés listar los asientos,
+                            éste puede
+                            ser por número o por fecha. También podes indicar desde qué página y número de asiento vas a
+                            incluir
+                            en el informe.</p>
+                        <img src="../assets/journalreport02.jpg" alt="solicitud del diario general"
+                            class="imageProduct">
+
+                        <h2>Ejemplo de informe</h2>
+                        <p>Acá emitimos el diario general ordenado por número de asiento. </p>
+
+
+                        <img src="../assets/journalreport01.jpg" alt="emisión de diario general" class="imageProduct">
+                    </section>
                 </div>
-              </div>
-            </div>
-            <div class="accordion-item faqItem">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                 <h3 class="faqQuestion">Como ingresar una cuenta?</h3>
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <p class="faqContent">En este <a href="../assets/accountsv01.mp4">video</a> te explicamos como hacerlo</p>
+                <div class=" col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                    <!--aside-->
+                    <aside class="infoAside">
+                        <h3>Temas que pueden interesarte</h3>
+                        <ul>
+                            <li><a href="./accounts.html">
+                                    <i class='bx bx-check'></i>
+                                    Cuentas</a></li>
+                            <li><a href="./accountingentries.html">
+                                    <i class='bx bx-check'></i>
+                                    Asientos de diario</a></li>
+                        </ul>
+
+                    </aside>
+                    <!--fin aside-->
+
                 </div>
-              </div>
             </div>
-            <div class="accordion-item faqItem">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <h3 class="faqQuestion">Como emitir el Mayor de una cuenta?</h3>
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p class="faqContent"> <a href="../html/ledgers.html">Acá</a> te contamos como hacerlo.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Fin Acordion-->
-        </main>
+        </div>
+    </main>
     <!--footer-->
     <div class="container-fluid footer">
         <div class="row">
@@ -119,9 +124,11 @@
                 </section>
             </div>
         </div>
+    </div>
 
-        <script src="../js/popper.js"></script>
-        <script src="../js/bootstrap.js"></script>
+
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>

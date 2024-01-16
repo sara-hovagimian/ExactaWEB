@@ -5,42 +5,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exacta Web - Mayores</title>
+    <title>Exacta Web - Alta de cuentas</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
-
 <body class="bodyDoc">
     <!--header-->
     <div class="container-fluid menuHeader">
-
         <div class="row">
-            <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-4 col-3  logoEasy">
+            <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-4 col-3 logoEasy">
                 <a href="../index.html">
                     <img src="../assets/LogoEasySoft.png" alt="logo EasySoft"></a>
             </div>
-            
+
         </div>
     </div>
 
 
 
-    <!--main-->
     <!-- title index-->
     <div class="container-fluid titleIndexDoc">
         <div class="row">
-
             <div class=" col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                 <!--migas de pan-->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                        <li class="breadcrumb-item"><a href="./informes_generales.html">Informes generales</a>
-                        </li>
-                        <li class="breadcrumb-item active" aria-current="page">Mayores</li>
+                        <li class="breadcrumb-item"><a
+                                href="../htmlLayout/plan_de_cuentas_y_tablas_relacionadas.html">Plan de
+                                cuentas y tablas relacionadas</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Cuentas</li>
                     </ol>
                 </nav>
                 <!--fin migas de pan-->
@@ -52,67 +49,72 @@
                     <button class="btn btn-outline-success btnColor" type="submit"><i class='bx bx-search'></i></button>
                 </form>
             </div>
-            </section>
+
             <hr class="headLineDoc"> <!--linea divisoria-->
         </div>
     </div>
-
     <!--finalTitleIndex-->
+    <!--main-->
     <main>
         <div class="container-fluid">
             <div class="row infoRowContainer">
                 <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
                     <section class="infoContainer">
-                        <h1>Mayores</h1>
-                        <p>En esta ventana podés emitir los mayores de las cuentas del plan de cuentas.
-                            Es posible emitir el mayor de una cuenta en particular o, mediante una vista, emitir los mayores de un conjunto de cuentas. Para ello deberás definir previamente una vista con las cuentas a incluir en el informe
-                         .</p>
-                         <p>En este <a href="#" target="_blank">video</a> te contamos en forma
-                            general como definir una vista.
-                        </p>
-                        <p>Para realizar la emisión completá los datos de la siguiente pantalla:</p>
-                            <img src="../assets/ledgers01.jpg" alt="emisión de mayores" class="imageProduct">
-                            
-                            <p>Ingresá el título del informe. Seleccioná si querés emitir el mayor de una cuenta o indicar una vista que incluya una serie de cuentas. Por último informá el rango de fechas para la emisión.</p>
-                        
-                        <h2>Ejemplo de informe</h2>
-                        <p>Acá emitimos un ejemplo de mayor de un conjunto de cuentas asociadas a una vista. </p>
+                        <h1>Alta manual de cuentas</h1>
+                        <p>En esta ventana se definen las cuentas del plan de cuentas de tu empresa.</p>
+                        <p>Al ingresar verás las cuentas que ya están definidas.</p>
+                        <img src="../assets/account01.jpg" alt="lista de cuentas" class="imageProduct">
+                        <h2>Como dar de alta y modificar cuentas</h2>
+                        <p>Cada cuenta se define con un código a tu elección que te servirá para identificarla en el
+                            resto
+                            de
+                            las pantallas del sistema. También, al definirla, tenés que indicar el saldo habitual de la
+                            misma. Este le permitirá al sistema
+                            informarte
+                            cuando
+                            su saldo varía respecto al esperado. </p>
+                        <p>En este video te contamos como incorporar una nueva cuenta, modificar o
+                            eliminar alguna de los ya existentes. </p>
+                        <video class="videoProduct" controls>
+                            <source src="../assets/accountsv01.mp4" type="video/mp4">
+                            <p>Tu navegador no puede reproducir este video</p>
+                        </video>
 
-
-                        <img src="../assets/ledgers02.jpg" alt="emisión de mayores" class="imageProduct">
                     </section>
                 </div>
+
                 <div class=" col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
                     <!--aside-->
                     <aside class="infoAside">
                         <h3>Temas que pueden interesarte</h3>
                         <ul>
-                            <li><a href="./accounts.html">
-                                    <i class='bx bx-check'></i>
-                                    Cuentas</a></li>
                             <li><a href="./views.html">
                                     <i class='bx bx-check'></i>
                                     Vistas</a></li>
+                            <li><a href="./accountingentries.html">
+                                    <i class='bx bx-check'></i>
+                                    Asientos</a></li>
                         </ul>
 
                     </aside>
                     <!--fin aside-->
-
                 </div>
+
             </div>
         </div>
-</main>
-        <!--footer-->
-        <div class="container-fluid footer">
-            <div class="row">
-                <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 
-                    <p> ExactaWeb.Client v:1.0.0.0 - Powered by
-                        <a href="https://bas.com.ar/" target=_blank> <img src="../assets/favicon.ico" alt="BAS"></a>
-                    </p>
-                </div>
-                <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                    <section class="iconCenter d-flex ">
+    </main>
+    <!--footer-->
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+
+                <p> ExactaWeb.Client v:1.0.0.0 - Powered by
+                    <a href="https://bas.com.ar/" target=_blank> <img src="../assets/favicon.ico" alt="BAS"></a>
+                </p>
+            </div>
+            <div class=" col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <section class="iconCenter d-flex ">
                     <a href="http://Linkedin.com" target="_blank"><img src="../assets/Linkedin.jpg" alt="linkedin"
                             class="footerIcon"></a>
                     <a href="http://youtube.com" target="_blank"><img src="../assets/Youtube.jpg" alt="youtube"
@@ -121,11 +123,9 @@
                             class="footerIcon"></a>
                     <a href="http://facebook.com" target="_blank"><img src="../assets/bi_facebook.jpg" alt="facebook"
                             class="footerIcon"></a>
-                    </section>
-                </div>
+                </section>
             </div>
         </div>
-
 
         <script src="../js/popper.js"></script>
         <script src="../js/bootstrap.js"></script>

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exacta Web - Alta de cuentas</title>
+    <title>Exacta Web - Alta, baja y modificación de elementos</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
@@ -20,23 +20,24 @@
                 <a href="../index.html">
                     <img src="../assets/LogoEasySoft.png" alt="logo EasySoft"></a>
             </div>
-           
+
         </div>
     </div>
 
 
-
+    <!--main-->
     <!-- title index-->
     <div class="container-fluid titleIndexDoc">
         <div class="row">
             <div class=" col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                 <!--migas de pan-->
+
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                        <li class="breadcrumb-item"><a href="./plan_de_cuentas_y_tablas_relacionadas.html">Plan de
-                                cuentas y tablas relacionadas</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Cuentas</li>
+
+                        <li class="breadcrumb-item active" aria-current="page">Alta, baja y modificación de elementos
+                        </li>
                     </ol>
                 </nav>
                 <!--fin migas de pan-->
@@ -52,56 +53,53 @@
             <hr class="headLineDoc"> <!--linea divisoria-->
         </div>
     </div>
-    <!--finalTitleIndex-->
-    <!--main-->
-    <main>
-        <div class="container-fluid">
-            <div class="row infoRowContainer">
-                <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
-                    <section class="infoContainer">
-                        <h1>Alta manual de cuentas</h1>
-                        <p>En esta ventana se definen las cuentas del plan de cuentas de tu empresa.</p>
-                        <p>Al ingresar verás las cuentas que ya están definidas.</p>
-                        <img src="../assets/account01.jpg" alt="lista de cuentas" class="imageProduct">
-                        <h2>Como dar de alta y modificar cuentas</h2>
-                        <p>Cada cuenta se define con un código a tu elección que te servirá para identificarla en el
-                            resto
-                            de
-                            las pantallas del sistema. También, al definirla, tenés que indicar el saldo habitual de la misma. Este le permitirá al sistema
-                            informarte
-                            cuando
-                            su saldo varía respecto al esperado. </p>
-                        <p>En este video te contamos como incorporar una nueva cuenta, modificar o
-                            eliminar alguna de los ya existentes. </p>
-                        <video class="videoProduct" controls>
-                            <source src="../assets/accountsv01.mp4" type="video/mp4">
-                            <p>Tu navegador no puede reproducir este video</p>
-                        </video>
-                        
-                    </section>
-                </div>
 
-                <div class=" col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
-                    <!--aside-->
-                    <aside class="infoAside">
-                        <h3>Temas que pueden interesarte</h3>
-                        <ul>
-                            <li><a href="./views.html">
-                                    <i class='bx bx-check'></i>
-                                    Vistas</a></li>
-                            <li><a href="./accountingentries.html">
-                                    <i class='bx bx-check'></i>
-                                    Asientos</a></li>
-                        </ul>
+    <!--finalContent-->
+    <div class="container-fluid">
+        <div class="row infoRowContainer">
+            <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 ">
+                <section class="infoContainer">
+                    <h1>Alta, baja y modificación de elementos</h1>
+                    <p>En todo el sistema la manera de incorporar, modificar o eliminar elementos se realiza en forma
+                        análoga.</p>
+                    <p>Al ingresar a la pantalla en la que vas a trabajar verás los elementos ya ingresados y podrás
+                        modificarlos, eliminarlos y agregar nuevos.
+                    </p>
+                    <img src="../assets/views01.jpg" alt="vistas" class="imageProduct">
 
-                    </aside>
-                    <!--fin aside-->
-                </div>
 
+                    <p>En este video te mostramos en forma práctica como operar.
+                    </p>
+
+                    <video class="videoProduct" controls>
+                        <source src="../assets/addDeleteModifyv01.mp4" type="video/mp4">
+                        <p>Tu navegador no puede reproducir este video</p>
+                    </video>
+                </section>
+            </div>
+
+            <div class=" col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                <!--aside-->
+                <aside class="infoAside">
+                    <h3>Temas que pueden interesarte</h3>
+                    <ul>
+                        <li><a href="./accountingentries.html">
+                                <i class='bx bx-check'></i>
+                                Carga de asientos</a></li>
+                        <li><a href="./views.html">
+                                <i class='bx bx-check'></i>
+                                Vistas</a></li>
+                        <li><a href="./accounts.html">
+                                <i class='bx bx-check'></i>
+                                Cuentas</a></li>
+                    </ul>
+
+                </aside>
+                <!--fin aside-->
             </div>
         </div>
+    </div>
 
-    </main>
     <!--footer-->
     <div class="container-fluid footer">
         <div class="row">
@@ -124,9 +122,10 @@
                 </section>
             </div>
         </div>
+    </div>
 
-        <script src="../js/popper.js"></script>
-        <script src="../js/bootstrap.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>
