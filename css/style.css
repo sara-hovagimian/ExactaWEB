@@ -222,11 +222,13 @@ h3 {
   font-size: 30px;
   color: #6574cd;
 }
-.infoContainer ul {
-  margin-left: 30px;
-}
 .infoContainer ul li {
   font-size: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.infoContainer ul p {
+  margin-left: 1px;
 }
 .infoContainer h2 {
   padding-left: 30px;
@@ -287,11 +289,14 @@ h3 {
   font-size: 20px;
   color: #6574cd;
   padding: 50px 5px 20px 0px;
+  font-weight: bold;
+}
+.infoAside ul {
+  margin-left: -30px;
 }
 .infoAside ul li {
   list-style-type: none;
   padding-bottom: 10px;
-  padding-left: 5px;
 }
 
 .faqQuestion h3 {
