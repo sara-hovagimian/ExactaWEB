@@ -80,6 +80,7 @@ h3 {
   margin-left: 70px;
   margin-right: 300px;
   width: 90%;
+  padding-bottom: 25px;
 }
 
 .noDecoration a {
@@ -129,17 +130,11 @@ h3 {
 /*fin header*/
 /*footer*/
 .footer {
-  background-color: white;
-  height: 60px;
+  background-color: gray;
+  height: 26px;
+  text-align: center;
   width: 100%;
-}
-.footer p {
-  text-align: right;
-  padding: 20px 20px 20px 20px;
-}
-
-.footerIcon {
-  padding: 20px 20px 50px 20px;
+  color: white;
 }
 
 /*fin footer*/
@@ -209,6 +204,7 @@ h3 {
   width: 95%;
   margin-left: 35px;
   margin-top: 15px;
+  padding-bottom: 20px;
 }
 .infoContainer p {
   padding-left: 30px;
@@ -297,6 +293,10 @@ h3 {
 .infoAside ul li {
   list-style-type: none;
   padding-bottom: 10px;
+}
+
+.rojo {
+  background-color: red;
 }
 
 .faqQuestion h3 {
