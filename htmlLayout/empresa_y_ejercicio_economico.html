@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exacta Web - Informes generales</title>
+    <title>Exacta Web - Empresa y Ejercicio economico</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
@@ -15,17 +15,15 @@
 <body>
     <!--header-->
     <header class="header fixed-top">
-    <div class="container-fluid menuHeader">
+        <div class="container-fluid menuHeader">
+            <div class="row">
+                <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-4 col-3 logoEasy">
+                    <a href="../index.html">
+                        <img src="../assets/LogoEasySoft.png" alt="logo EasySoft"></a>
+                </div>
 
-        <div class="row">
-            <div class=" col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-sm-4 col-3 logoEasy">
-                <a href="../index.html">
-                    <img src="../assets/LogoEasySoft.png" alt="logo EasySoft"></a>
             </div>
-
-
         </div>
-    </div>
     </header>
 
     <!--main-->
@@ -37,7 +35,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Informes generales</li>
+                        <li class="breadcrumb-item active" aria-current="page">Empresa y Ejercicio económico</li>
                     </ol>
                 </nav>
                 <!--fin migas de pan-->
@@ -53,16 +51,16 @@
         </div>
     </div>
 
-        <!--cards second level-->
+    <!--cards second level-->
     <div class="container-fluid">
         <div class="row contentRow">
             <div class=" col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="card cardSecondLevel cardsFormInfo">
+                <div class="card cardSecondLevel ">
                     <section class="row cardContentSL">
-                        <h3>Diario general</h3>
-                        <p> Podés emitir el diario general para un rango de fechas y ordenado por fecha o por número de
-                            asiento.</p>
-                        <a href="../htmlDocs/journalreport.html" target="_blank">
+                        <h3>Empresas</h3>
+                        <p> Podés habilitar las empresas que necesites para llevar su contabilidad </p>
+
+                        <a href="#" target="_blank">
 
                             <button type="button" class="btn btn-primary btnShowMore">Ver más</button>
 
@@ -75,36 +73,19 @@
             <div class=" col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="card cardSecondLevel cardsFormInfo">
                     <section class="row cardContentSL">
-                        <h3>Mayores</h3>
-                        <p>Podés emitir los mayores para un rango de fechas, seleccionando una cuenta o en base a una
-                            vista definida previamente.</p>
-                        <a href="../htmlDocs/ledgers.html" target="_blank">
-
-                            <button type="button" class="btn btn-primary btnShowMore">Ver más</button>
-
-                        </a>
-
-
-                    </section>
-                </div>
-            </div>
-            <div class=" col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                <div class="card cardSecondLevel cardsFormInfo">
-                    <section class="row cardContentSL">
-                        <h3>Balances</h3>
-                        <p>Aqui podras emitir los diferentes tipos de balances. </p>
-                        <a href="../htmlDocs/balance.html" target="_blank">
+                        <h3>Año fiscal</h3>
+                        <p>Acá definis el ejercicio económico y podes habilitar un rango de fechas para controlar que no se registren asientos fuera del periodo indicado.</p>
+                        <a href="../htmlDocs/fiscalyearaddupdate.html">
                             <button type="button" class="btn btn-primary btnShowMore">Ver más</button>
                         </a>
                     </section>
                 </div>
             </div>
-
-
 
         </div>
     </div>
     <!--footer-->
+
     <footer class="container-fluid footer fixed-bottom">
         <div class="row">
             <div class=" col-12">
@@ -113,9 +94,10 @@
                     <a href="https://bas.com.ar/" target=_blank> <img src="../assets/favicon.ico" alt="BAS"></a>
                 </p>
             </div>
-            
+
         </div>
     </footer>
+
     <script src="../js/popper.js"></script>
     <script src="../js/bootstrap.js"></script>
 </body>
