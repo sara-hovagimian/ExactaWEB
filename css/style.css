@@ -47,7 +47,7 @@ h3 {
 .firstLevel {
   color: #6574cd;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .listSubjects {
@@ -63,24 +63,20 @@ h3 {
 /*titleIndex*/
 .titleIndex {
   padding-top: 20px;
-  /*padding-bottom: 40px;*/
-  padding-left: 80px;
+  padding-left: 20px;
   background: #f0f0f5;
   margin-top: 100px;
 }
 
 .itemsSearch {
   width: 70%;
-  margin-right: 80px;
+  margin-right: 20px;
   float: right;
 }
 
-.headLine {
-  border: 0;
-  height: 3px;
-  background-color: black;
-  padding-left: 80px;
-  width: 95%;
+.faqQuestionMenu {
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .btnColor {
@@ -100,9 +96,7 @@ h3 {
 
 .cardsIndex a {
   text-decoration: none;
-  /* Quita el subrayado predeterminado */
   color: #333;
-  /* Color del texto del enlace */
 }
 
 .colorBg {
@@ -132,9 +126,14 @@ h3 {
 
 .cardContent h3 {
   padding: 28px;
+  font-size: 1.1rem;
 }
 .cardContent img {
   padding-right: 20px;
+  padding-top: 25px;
+}
+
+.cardContainer {
   padding-top: 25px;
 }
 
@@ -146,7 +145,7 @@ h3 {
 }
 
 .logoEasy {
-  padding: 28px 0px 28px 80px;
+  padding: 28px 0px 28px 20px;
 }
 
 .buttColor {
@@ -189,6 +188,7 @@ h3 {
 }
 .cardContentSL h3 {
   text-align: center;
+  font-size: 1.1rem;
 }
 .cardContentSL p {
   text-align: left;
@@ -267,7 +267,7 @@ h3 {
   background-color: #f0f0f5;
   padding-top: 20px;
   margin-top: 100px;
-  padding-left: 80px;
+  padding-left: 20px;
 }
 
 .imageProduct {
@@ -294,7 +294,7 @@ h3 {
   border: 0;
   height: 2px;
   background-color: black;
-  width: 95%;
+  width: 99%;
   margin-top: 18px;
   margin-left: 10px;
 }
